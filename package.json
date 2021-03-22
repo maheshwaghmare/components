@@ -2,11 +2,14 @@
   "name": "@maheshwaghmare/components",
   "version": "0.0.5",
   "description": "ReactJS UI components.",
+  "homepage": "https://maheshwaghmare.github.io/components",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "keywords": [
     "reactjs",
@@ -24,6 +27,7 @@
     "@storybook/react": "^6.1.21",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.3.0",
+    "gh-pages": "^3.1.0",
     "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
