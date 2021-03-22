@@ -24,6 +24,9 @@ npm run storybook
 Visit http://localhost:6006/
 
 ```sh
-npm run build-storybook
+* npm run build-storybook
 npm run deploy-storybook
+git add .
+git commit -m "Updated storybook"
+git push origin main
 ```
