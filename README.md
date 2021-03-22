@@ -2,7 +2,7 @@
 
 ![Preview URL](preview.png)
 
-![See all components](https://maheshwaghmare.github.io/components/?path=/story/components-button--default)
+[See all components](https://maheshwaghmare.github.io/components/?path=/story/components-button--default)
 
 ```
 npm init --scope=@maheshwaghmare
