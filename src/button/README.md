@@ -1,0 +1,13 @@
+### How to use?
+
+```js
+import { Button } from 'maheshwaghmare/components';
+
+const Hello = () => {
+    return (
+        <Button text="Hello World" />
+    )
+}
+
+export default Hello;
+```
