@@ -1,13 +1,14 @@
 ### How to use?
 
 ```js
-import { Button } from 'maheshwaghmare/components';
+import { Link } from '@maheshwaghmare/components';
 
 const Hello = () => {
     return (
-        <Button text="Hello World" />
+        <Link href="#" text="Link" />
     )
 }
 
 export default Hello;
 ```
+
