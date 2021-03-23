@@ -13,7 +13,6 @@ const Button = ({ text, primary, secondary }) => {
         margin: 10,
     };
 
-
     return (
         <button style={styles} type="button">{text}</button>
     )
