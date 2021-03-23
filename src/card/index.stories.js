@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Card } from '../index';
+import { Heading, Image, Button } from '../index';
 
 export default {
     title: 'Card',
@@ -9,10 +10,10 @@ export default {
 
 export const Default = () => {
     return (
-        <Card
-            heading='Outdoor Adventure'
-            thumbnail="https://websitedemos.net/wp-content/uploads/2019/07/outdoor-adventure-02-home-600x800.jpg"
-            btn='Visit Full Site'
-        />
+        <Card>
+            <Image src="https://websitedemos.net/wp-content/uploads/2019/07/outdoor-adventure-02-home-600x800.jpg" />
+            <Heading>Outdoor Adventure</Heading>
+            <Button>Visit Full Site</Button>
+        </Card>
     )
 };
