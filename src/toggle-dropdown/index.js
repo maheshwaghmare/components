@@ -23,7 +23,7 @@ const ToggleDropdown = ({ options,defaulSelected,className,onOptionSelect}) => {
         setState(prevState => ({
             ...state, 
             showDropdown:!state.showDropdown 
-        }))
+        }));
     }
     let handleSelection = (value) => {
         setState(prevState => ({
@@ -33,7 +33,9 @@ const ToggleDropdown = ({ options,defaulSelected,className,onOptionSelect}) => {
         }));      
         
        //Custom Event.
-        onOptionSelect ? onOptionSelect() :null
+        if(typeof onOptionSelect === 'function'){
+                onOptionSelect(value);
+        }
     }
     
     return (
@@ -50,8 +52,7 @@ const ToggleDropdown = ({ options,defaulSelected,className,onOptionSelect}) => {
                         {optionsHtml}
                     </ul>
                 </div>
-            )}
-                        
+            )}        
         </div>
     )
 }
