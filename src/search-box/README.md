@@ -5,13 +5,13 @@ npm i @maheshwaghmare/components
 ```
 
 ```js
-import { SearchBar } from '@maheshwaghmare/components';
+import { SearchBox } from '@maheshwaghmare/components';
 
 
 
 const Hello = () => {
     return (
-        <SearchBar 
+        <SearchBox 
             placeholder="Custom Placeholder.." 
             // onChangeEvent={} //Custom onChange Event
         />
