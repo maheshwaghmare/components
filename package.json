@@ -1,6 +1,6 @@
 {
   "name": "@maheshwaghmare/components",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "ReactJS UI components.",
   "homepage": "https://maheshwaghmare.github.io/components",
   "main": "./build/index.js",
