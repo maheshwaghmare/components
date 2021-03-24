@@ -9,4 +9,7 @@ export default {
 
 export const Default = () => <SearchBox placeholder="custom"/>
 
-export const WithEvent = () => <SearchBox onChangeEvent={}/>
+export const WithEvent = () =>  <SearchBox 
+                                    placeholder="Custom Message"
+                                    // onChangeEvent={}
+                                />
