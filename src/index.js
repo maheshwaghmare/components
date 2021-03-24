@@ -4,6 +4,8 @@ import Card from './card'
 import Grid from './grid'
 import Toggle from './toggle'
 import ToggleDropdown from './toggle-dropdown'
+import SearchBox from './search-box'
+
 
 export {
     Button,
@@ -12,4 +14,5 @@ export {
     Grid,
     Toggle,
     ToggleDropdown,
+    SearchBox,
 }
