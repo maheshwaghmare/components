@@ -23,11 +23,16 @@ export const Default = () => {
             heading: 'Pet Care',
             thumbnail: "https://websitedemos.net/wp-content/uploads/2020/01/pet-care-04-home-600x800.jpg",
             btn: 'Visit Full Site',
+        },
+        {
+            heading: 'Pet Care',
+            thumbnail: "https://websitedemos.net/wp-content/uploads/2020/01/pet-care-04-home-600x800.jpg",
+            btn: 'Visit Full Site',
         }
     ]
 
     return (
-        <Grid items={items} />
+        <Grid items={items} columns="3" />
     )
 
 };

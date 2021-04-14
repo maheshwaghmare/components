@@ -1,0 +1,21 @@
+.bsf-card-wrap {
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background: #fff;    
+}
+
+.bsf-card-image-wrapper {  
+    border: 1px solid #eee;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.bsf-card-image {
+    max-width: 100%;
+    height: auto; 
+}
+p.bsf-card-caption {
+    margin: 10px;
+}
