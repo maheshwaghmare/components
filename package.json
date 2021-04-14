@@ -1,6 +1,6 @@
 {
   "name": "@maheshwaghmare/components",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "ReactJS UI components.",
   "homepage": "https://maheshwaghmare.github.io/components",
   "main": "./build/index.js",
@@ -29,6 +29,7 @@
     "css-loader": "^3.3.0",
     "gh-pages": "^3.1.0",
     "style-loader": "^1.0.1",
+    "svg-url-loader": "^7.1.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
