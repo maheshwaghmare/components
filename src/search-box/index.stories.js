@@ -7,9 +7,10 @@ export default {
     component: SearchBox,
 }
 
-export const Default = () => <SearchBox placeholder="custom"/>
+export const Default = () => <SearchBox placeholder="custom" />
 
 export const WithEvent = () =>  <SearchBox 
                                     placeholder="Custom Message"
                                     // onChangeEvent={}
+                                    // value=""
                                 />
