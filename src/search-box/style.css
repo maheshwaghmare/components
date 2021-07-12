@@ -1,13 +1,13 @@
 .bsf_search-box-wrap{
     position: relative;
 }
-input.bsf_search-box-input {
+.bsf_search-box-input {
     border: none;
     width: 100%;
     padding: 0.75em;
     background:transparent;
 }
-input.bsf_search-box-input:focus {
+.bsf_search-box-input:focus {
     border: none;
     outline: none;
 }
@@ -17,6 +17,6 @@ input.bsf_search-box-input:focus {
     padding: 0.3em;
     fill: #cac4d0;
 }
-input.bsf_search-box-input::-webkit-search-cancel-button {
+.bsf_search-box-input::-webkit-search-cancel-button {
     -webkit-appearance: searchfield-cancel-button;
 }
