@@ -1,4 +1,5 @@
 import Button from './button'
+import Heading from './heading'
 import Link from './link'
 import Card from './card'
 import Grid from './grid'
@@ -10,6 +11,7 @@ import ContainerWithSidebar from './container-with-sidebar'
 
 
 export {
+    Heading,
     Button,
     Link,
     Card,

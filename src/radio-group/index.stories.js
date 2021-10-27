@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { RadioGroup } from '../index';
+import { RadioGroup } from './index';
 
 export default {
     title: 'RadioGroup',

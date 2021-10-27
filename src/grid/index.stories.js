@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Grid } from '../index';
+import { Grid } from './index';
 
 export default {
     title: 'Grid',
