@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card } from '../index';
+import { Card } from './index';
 
 export default {
     title: 'Card',

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { ContainerWithSidebar } from '../index';
+import { ContainerWithSidebar } from './index';
 
 export default {
     title: 'ContainerWithSidebar',

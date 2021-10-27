@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {ContainerWithSidebar,Grid,RadioGroup} from '../index';
+import {ContainerWithSidebar,Grid,RadioGroup} from './index';
 let items = [{
     "heading": "Outdoor Adventure",
     "thumbnail": "https://websitedemos.net/wp-content/uploads/2019/07/outdoor-adventure-02-home-600x800.jpg",

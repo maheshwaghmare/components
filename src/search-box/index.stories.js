@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SearchBox } from '../index';
+import { SearchBox } from './index';
 
 export default {
     title: 'SearchBox',

@@ -5,11 +5,13 @@
   "homepage": "https://maheshwaghmare.github.io/components",
   "main": "./build/index.js",
   "scripts": {
-    "build": "webpack",
+    "start": "webpack --watch --mode development",
+    "build": "webpack --mode production",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "predeploy": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "reactjs",
